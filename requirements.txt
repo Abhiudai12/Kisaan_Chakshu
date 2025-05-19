@@ -85,7 +85,11 @@ six
 smmap
 sniffio
 stack-data
-streamlit
+
+# in requirements.txt
+streamlit==1.34.0      # or latest
+# NO pin on protobuf – let it float
+
 sympy
 tenacity
 threadpoolctl
