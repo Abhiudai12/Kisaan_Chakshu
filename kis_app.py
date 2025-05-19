@@ -81,8 +81,9 @@ client = OpenAI(
     api_key="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",
     base_url="https://openrouter.ai/api/v1"
 )
-
-mongo_client = MongoClient("mongodb://localhost:27017/")
+mongo_uri="mongodb+srv://bt22csd040:abhi1234@cluster0.am4cwfw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+# mongo_client = MongoClient("mongodb://localhost:27017/")
+mongo_client = MongoClient(mongo_uri)
 mongo_db = mongo_client["kisaan_chakshu"]
 soil_collection = mongo_db["soil_images"]
 
