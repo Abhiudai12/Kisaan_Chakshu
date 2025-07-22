@@ -1,5 +1,17 @@
 # Kisaan_Chakshu
-![Email_to Farmer:](https://github.com/Abhiudai12/Kisaan_Chakshu/raw/main/Screenshot_20250314_201309.jpg)
+## Features:
+Automated Email Alerts_to Farmer
+
+![Email Alerts_to Farmer:](Images/Email_alerts.jpg)
+
+Data Stored in mongo db for fetching and updating farmer Soil & Crop info.
+
+![](Images/dataINmongodb.png)
+
+Vision Transformers VS Resnets
+
+![](Images/model_accuracy.jpg)
+
 ## Overview
 **Kisaan_Chakshu** is an AI-powered web application designed to assist farmers in selecting the best crops based on soil type and seasonal conditions. The system utilizes:
 - **Vision Transformers (ViT)** to classify soil type from an uploaded image.
